@@ -1,10 +1,29 @@
-# todo_app
+# Todo Application
 
-A new Flutter project.
+A simple Flutter Todo App that helps users manage tasks efficiently with a clean and responsive UI.
+![Preview](assets/img/AppPreview.jpg)
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add, edit, delete, and mark tasks as done or archived.
+- Organized task management with task categories (New, Done, Archived).
+- Uses local SQLite database for persistent task storage.
+- Bloc state management for efficient state handling.
+
+## Technologies Used
+
+- **Flutter**: For building the UI and logic.
+- **Bloc**: State management.
+- **SQLite**: Local database for task storage.
+- **Conditional Builder**: For handling conditional UI rendering.
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/HossamElbesh/Todo-App.git
+    ```
 
 A few resources to get you started if this is your first Flutter project:
 
